@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RANDOM PERSON</title>
+  <link href="normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <main>
+    <form id="randomForm" class="randomForm">
+      <input type="button" value="start" id="randomButton" class="randomButton">
+    </form>
+  </main>
+
+  <article>
+    <div class="article_maindiv">
+      <form>
+        <label>name :</label>
+        <input type="text" id="addName">
+        <input type="button" value="add" id="addButton" class="addButton">
+        <p>please write the person's name to add</p>
+      </form>
+      <div>
+        <button id="deleteButton" type="button">delete</button>
+        <p>please check the person to delete</p>
+      </div>
+    </div>
+  </article>
+
+  <script src="main.js"></script>
+</body>
+</html>
